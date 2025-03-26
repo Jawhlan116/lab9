@@ -1,0 +1,101 @@
+Admin@DESKTOP-7O4IF1R MINGW64 ~
+$ cd laborator9
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/laborator9
+$ git init
+Initialized empty Git repository in C:/Users/Admin/laborator9/.git/
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/laborator9 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        assertionjish1/
+        assertionjish2/
+        assertionjish2_1/
+        assertionjish2_2/
+        assertionjish4_1/
+        assertionjish4_2/
+        jishe1/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/laborator9 (master)
+$ git add jishe1
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/laborator9 (master)
+$ git commit -m "tulhuur ugiig final gej awsan jishee"
+[master (root-commit) 686369c] tulhuur ugiig final gej awsan jishee
+ 1 file changed, 18 insertions(+)
+ create mode 100644 jishe1/jishee1.java
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/laborator9 (master)
+$ git add assertionjsh1
+fatal: pathspec 'assertionjsh1' did not match any files
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/laborator9 (master)
+$ git add assertionjish1
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/laborator9 (master)
+$ git commit -m "assert-iig anh uda ashiglasan jishee"
+[master 0462000] assert-iig anh uda ashiglasan jishee
+ 2 files changed, 14 insertions(+)
+ create mode 100644 assertionjish1/assertionjish1_aldaa_zurag.PNG
+ create mode 100644 assertionjish1/assertionsjish1.java
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/laborator9 (master)
+$ git add assertionjish2
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/laborator9 (master)
+$ git commit -m "assert aldaa messagiig oorchilson jishee"
+[master 9fec3d2] assert aldaa messagiig oorchilson jishee
+ 2 files changed, 15 insertions(+)
+ create mode 100644 assertionjish2/assertionjish2.java
+ create mode 100644 assertionjish2/assertionjish2_aldaa_zurag.PNG
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/laborator9 (master)
+$ git add assertionjish2_1
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/laborator9 (master)
+$ git commit -m "taarsan too oruulahad terhuu toog hewledeg jishee"
+[master 0b9fe0e] taarsan too oruulahad terhuu toog hewledeg jishee
+ 2 files changed, 16 insertions(+)
+ create mode 100644 assertionjish2_1/assertionjish2_1.java
+ create mode 100644 assertionjish2_1/assertionjish2_1_aldaa_zurag.PNG
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/laborator9 (master)
+$ git add assertionjish4_1
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/laborator9 (master)
+$ git commit -m "ogogdliig x bish nas bolgoson jishee"
+[master a0df616] ogogdliig x bish nas bolgoson jishee
+ 2 files changed, 14 insertions(+)
+ create mode 100644 assertionjish4_1/assertionjish4_1.java
+ create mode 100644 assertionjish4_1/assertionjish4_1_zurag_aldaa.PNG
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/laborator9 (master)
+$ git remote add origin https://github.com/Jawhlan116/lab9.git
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/laborator9 (master)
+$ git push origin master
+Enumerating objects: 24, done.
+Counting objects: 100% (24/24), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (22/22), done.
+Writing objects: 100% (24/24), 77.77 KiB | 19.44 MiB/s, done.
+Total 24 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/Jawhlan116/lab9.git
+ * [new branch]      master -> master
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/laborator9 (master)
+$ touch bashcode.txt
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/laborator9 (master)
+$ code bashcode.txt
+
+Admin@DESKTOP-7O4IF1R MINGW64 ~/laborator9 (master)
+$
